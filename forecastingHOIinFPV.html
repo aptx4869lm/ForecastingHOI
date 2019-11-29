@@ -1,0 +1,85 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Forecasting Human Object Interaction: Joint Prediction of Motor Attention and Egocentric Activity</title>
+<meta name="generator" content="Nested http://nestededitor.sourceforge.net/">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    menuSettings: {zoom: "Double-Click", zscale: "300%"},
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+    MathMenu: {showRenderer: false},
+    "HTML-CSS": {
+        availableFonts: ["TeX"],
+        preferredFont: "TeX",
+        imageFont: null
+    }
+  });
+</script>
+<style type="text/css">
+    body { background-color: White; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif; width:900px; margin:0 auto;}
+    h1 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 27px; }
+    h2 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 22px}
+    h4 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 15px; font-weight:normal}
+    p { color: black; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif;}
+</style>
+</head>
+
+
+<body><div id="header" class="header" align="center">
+<h1>Forecasting Human-Object Interaction: <br />Joint Prediction of Motor Attention and Egocentric Activity</h1>
+
+<table style="width:90%">
+  <tbody><tr>
+    <td style="text-align:center"><font size="4"><a href="https://aptx4869lm.github.io/">Miao Liu</a> </font></td>
+    <td style="text-align:center"><font size="4"><a href="https://ps.is.tuebingen.mpg.de/person/stang">Siyu Tang</a> </font></td>
+    <td style="text-align:center"><font size="4"><a href="https://www.biostat.wisc.edu/~yli/">Yin Li</a> </td>
+    <td style="text-align:center"><font size="4"><a href="https://rehg.org/">James Rehg</a></td>
+  </tr>
+  <tr>
+  <td style="text-align:center">Georgia Institue of Technology</td> 
+  <td style="text-align:center">Max Planck Institute</td>
+  <td style="text-align:center">University of Wisconsin<span>&#8722;</span>Madison</td> 
+  <td style="text-align:center">Georgia Institue of Technology</td> 
+  </tr>
+</tbody></table>
+
+<p>
+  <!-- <a href="??" style="font-size: 24px;">[code]</a> -->
+  <font style="font-size: 24px;">[code]</font>
+  <a href="https://arxiv.org/abs/1911.10967" style="font-size: 24px;">[arxiv]</a> 
+</p>
+
+
+</div>
+
+<div style="text-align: center;">
+  <img src="teaser.png"  style="width:600px;height:450px;">
+</div>
+
+<h4>
+In addition to future action label, our model also predicts the interaction hotspots on the last observable frame and hand trajectory (in the order of <span style="color: #FFFF00">yellow</span>, <span style="color: #00ff00">green</span>, <span style="color: #00b7eb">cyan</span>, and <span style="color: #FF00FF">magenta</span>) from the last observable time step to action starting point.  Visualizations of hand trajectory are forecasted to the last observable frame. (Best viewe in color)
+</h4>
+
+<h2>Abstract</h2>
+We address the challenging task of anticipating human-object interaction in first person videos. Most existing methods ignore how the camera wearer interacts with the objects, or simply consider body motion as a separate modality. In contrast, we observe that the international hand movement reveals critical information about the future activity. Motivated by this, we adopt intentional hand movement as a future representation and propose a novel deep network that jointly models and predicts the egocentric hand motion, interaction hotspots and future action. Specifically, we consider the future hand motion as the motor attention, and model this attention using latent variables in our deep model. The predicted motor attention is further used to characterise the discriminative spatial-temporal visual features for predicting actions and interaction hotspots. We present extensive experiments demonstrating the benefit of the proposed joint model. Importantly, our model produces new state-of-the-art results for action anticipation on both EGTEA Gaze+ and the EPIC-Kitchens datasets. At the time of submission, our method is ranked first on unseen test set during EPIC-Kitchens Action Anticipation Challenge Phase 2. 
+<br>
+
+<hr class="heavy">
+
+<div style="text-align: center;">
+<h2>Qualitative Results Video</h2>
+<video controls="controls" width="640">
+  <source src="Demo.mp4" type="video/mp4">
+</video>
+</div>
+<hr class="heavy">
+
+
+
+<h2 id="Contact">Contact</h2>
+For questions about paper, please contact mliu328 at gatech dot edu
+<br>
+</body></html>
