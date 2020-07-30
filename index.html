@@ -34,13 +34,13 @@
 <table style="width:90%">
   <tbody><tr>
     <td style="text-align:center"><font size="4"><a href="https://aptx4869lm.github.io/">Miao Liu</a> </font></td>
-    <td style="text-align:center"><font size="4"><a href="https://ps.is.tuebingen.mpg.de/person/stang">Siyu Tang</a> </font></td>
+    <td style="text-align:center"><font size="4"><a href="https://siyut.github.io/SiyuT/team/">Siyu Tang</a> </font></td>
     <td style="text-align:center"><font size="4"><a href="https://www.biostat.wisc.edu/~yli/">Yin Li</a> </td>
     <td style="text-align:center"><font size="4"><a href="https://rehg.org/">James Rehg</a></td>
   </tr>
   <tr>
   <td style="text-align:center">Georgia Institue of Technology</td> 
-  <td style="text-align:center">Max Planck Institute</td>
+  <td style="text-align:center">ETH Z<sann>&#252</span>rich</td>
   <td style="text-align:center">University of Wisconsin<span>&#8722;</span>Madison</td> 
   <td style="text-align:center">Georgia Institue of Technology</td> 
   </tr>
@@ -60,11 +60,11 @@
 </div>
 
 <h4>
-In addition to future action label, our model also predicts the interaction hotspots on the last observable frame and hand trajectory (in the order of <span style="color: #FFFF00">yellow</span>, <span style="color: #00ff00">green</span>, <span style="color: #00b7eb">cyan</span>, and <span style="color: #FF00FF">magenta</span>) from the last observable time step to action starting point.  Visualizations of hand trajectory are forecasted to the last observable frame. (Best viewe in color)
+In addition to future action label, our model also predicts the interaction hotspots on the last observable frame and hand trajectory (in the order of <span style="color: #FFFF00">yellow</span>, <span style="color: #00ff00">green</span>, <span style="color: #00b7eb">cyan</span>, and <span style="color: #FF00FF">magenta</span>) from the last observable time step to action starting point.  Visualizations of hand trajectory are forecasted to the last observable frame. (Best viewed in color)
 </h4>
 
 <h2>Abstract</h2>
-We address the challenging task of anticipating human-object interaction in first person videos. Most existing methods ignore how the camera wearer interacts with the objects, or simply consider body motion as a separate modality. In contrast, we observe that the international hand movement reveals critical information about the future activity. Motivated by this, we adopt intentional hand movement as a future representation and propose a novel deep network that jointly models and predicts the egocentric hand motion, interaction hotspots and future action. Specifically, we consider the future hand motion as the motor attention, and model this attention using latent variables in our deep model. The predicted motor attention is further used to characterise the discriminative spatial-temporal visual features for predicting actions and interaction hotspots. We present extensive experiments demonstrating the benefit of the proposed joint model. Importantly, our model produces new state-of-the-art results for action anticipation on both EGTEA Gaze+ and the EPIC-Kitchens datasets. At the time of submission, our method is ranked first on unseen test set during EPIC-Kitchens Action Anticipation Challenge Phase 2. 
+We address the challenging task of anticipating human-object interaction in first person videos. Most existing methods ignore how the camera wearer interacts with the objects, or simply consider body motion as a separate modality. In contrast, we observe that the international hand movement reveals critical information about the future activity. Motivated by this, we adopt intentional hand movement as a future representation and propose a novel deep network that jointly models and predicts the egocentric hand motion, interaction hotspots and future action. Specifically, we consider the future hand motion as the motor attention, and model this attention using latent variables in our deep model. The predicted motor attention is further used to characterise the discriminative spatial-temporal visual features for predicting actions and interaction hotspots. We present extensive experiments demonstrating the benefit of the proposed joint model. Importantly, our model produces new state-of-the-art results for action anticipation on both EGTEA Gaze+ and the EPIC-Kitchens datasets.
 <br>
 
 <hr class="heavy">
@@ -77,7 +77,17 @@ We address the challenging task of anticipating human-object interaction in firs
 </div>
 <hr class="heavy">
 
+<h2 id="bibtex">Cite</h2>
 
+If you find this work useful in your own research, please consider citing:
+<pre>
+@inproceedings{liu2019forecasting,
+  title={Forecasting human object interaction: Joint prediction of motor attention and actions in First Person Video},
+  author={Liu, Miao and Tang, Siyu and Li, Yin and Rehg, James},
+  booktitle={ECCV},
+  year={2020}
+}
+</pre>
 
 <h2 id="Contact">Contact</h2>
 For questions about paper, please contact mliu328 at gatech dot edu
